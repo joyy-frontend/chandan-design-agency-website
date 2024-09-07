@@ -1,81 +1,83 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
 }
 
 .logo {
-  padding: .5% 0 .5% 2%;
+    padding: .5% 0 .5% 2%;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
 nav a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .hamburger-icon {
-  padding: 15px;
-  font-size: 3.5rem;
-  cursor: pointer;
-  color: #000;
-  border: none;
-  margin-left: auto;
+    padding: 15px;
+    font-size: 3.5rem;
+    cursor: pointer;
+    color: #000;
+    border: none;
+    margin-left: auto;
 }
 
 .highlight {
-  border-bottom: 2px solid#4361EE;
-  padding-bottom: 4px;
+    border-bottom: 2px solid#4361EE;
+    padding-bottom: 4px;
 }
 
 .left-side {
-  display: flex;
-  justify-content: center;
-  width: 40%;
-  line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    line-height: 1.6;
 }
 
 .our-services h1 {
-  text-align: center;
-  padding: 5%;
+    text-align: center;
+    padding: 5%;
 }
 
 .our-services button {
-  margin: 10%;
+    margin: 10%;
 }
 
 .img-item img {
-  display: block;
-  width: 100%;
-  height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .small-icon {
-  background-color: #E9F4FF;
-  border-radius: 5px;
+    background-color: #E9F4FF;
+    border-radius: 5px;
 }
 
 .i-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .top-row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-bottom: 10px;
-  width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
 }
 
 .bottom-text {
-  font-size: 1rem;
-  margin-left: 5%;
-  font-weight: 100;
+    font-size: 1rem;
+    margin-left: 5%;
+    font-weight: 100;
 }
